@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: solid-principles-py
+Version: 0.0.1
+Summary: Examples using solid principles
+Author-email: David Angarita <davidangarita.sistemas@gmail.com>
+Requires-Python: >=3.14
+Description-Content-Type: text/markdown

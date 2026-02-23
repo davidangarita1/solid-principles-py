@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/solid_principles_py/__init__.py
+src/solid_principles_py.egg-info/PKG-INFO
+src/solid_principles_py.egg-info/SOURCES.txt
+src/solid_principles_py.egg-info/dependency_links.txt
+src/solid_principles_py.egg-info/entry_points.txt
+src/solid_principles_py.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+solyd = solid_principles_py:main

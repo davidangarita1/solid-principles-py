@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=65.0.0", "wheel", "setuptools-git-versioning"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = { namespaces = false, where = ["src"] }
+
+[tool.setuptools-git-versioning]
+enabled = true
+
+[project]
+name = "solid-principles-py"
+dynamic = ["version"]
+readme = "README.md"
+license = { "file" = "LICENSE" }
+description = "Examples using solid principles"
+requires-python = ">=3.14"
+authors = [
+    { name = "David Angarita", email = "davidangarita.sistemas@gmail.com" },
+]
+dependencies = []
+
+
+[project.scripts]
+solyd = "solid_principles_py:main"
